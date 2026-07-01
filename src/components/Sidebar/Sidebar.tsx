@@ -1,7 +1,7 @@
 import { useState } from 'react'
-import { usePageStore } from '@/store/pageStore'
-import { useUIStore } from '@/store/uiStore'
-import type { Page } from '@/types'
+import { usePageStore } from '../../store/pageStore'
+import { useUIStore } from '../../store/uiStore'
+import type { Page } from '../../types'
 
 export default function Sidebar() {
   const pages = usePageStore((s) => s.pages)

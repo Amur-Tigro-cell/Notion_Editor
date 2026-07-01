@@ -2,7 +2,7 @@ import { Extension } from '@tiptap/core'
 import Suggestion, { type SuggestionOptions } from '@tiptap/suggestion'
 import { ReactRenderer } from '@tiptap/react'
 import type { Editor } from '@tiptap/core'
-import SlashMenu, { type SlashMenuRef } from '@/components/Editor/SlashMenu'
+import SlashMenu, { type SlashMenuRef } from '../components/Editor/SlashMenu'
 import tippy, { type Instance } from 'tippy.js'
 
 export interface SlashCommandItem {

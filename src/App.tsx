@@ -1,9 +1,9 @@
 import { useEffect } from 'react'
-import { usePageStore } from '@/store/pageStore'
-import { useUIStore } from '@/store/uiStore'
-import { useKeyboard } from '@/hooks/useKeyboard'
-import Sidebar from '@/components/Sidebar/Sidebar'
-import Editor from '@/components/Editor/Editor'
+import { usePageStore } from './store/pageStore'
+import { useUIStore } from './store/uiStore'
+import { useKeyboard } from './hooks/useKeyboard'
+import Sidebar from './components/Sidebar/Sidebar'
+import Editor from './components/Editor/Editor'
 import './app.css'
 
 export default function App() {

@@ -1,5 +1,5 @@
 import { openDB, type DBSchema } from 'idb'
-import type { Page } from '@/types'
+import type { Page } from '../types'
 
 interface EditorDB extends DBSchema {
   pages: {

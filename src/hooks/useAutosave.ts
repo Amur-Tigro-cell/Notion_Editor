@@ -1,8 +1,8 @@
 import { useEffect, useRef } from 'react'
 import type { Editor } from '@tiptap/core'
-import { usePageStore } from '@/store/pageStore'
-import { useUIStore } from '@/store/uiStore'
-import { getTitleFromDoc } from '@/lib/tiptap.utils'
+import { usePageStore } from '../store/pageStore'
+import { useUIStore } from '../store/uiStore'
+import { getTitleFromDoc } from '../lib/tiptap.utils'
 
 const DEBOUNCE_MS = 400
 

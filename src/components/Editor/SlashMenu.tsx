@@ -5,7 +5,7 @@ import {
   useState,
 } from 'react'
 import type { Editor } from '@tiptap/core'
-import type { SlashCommandItem } from '@/extensions/SlashCommand'
+import type { SlashCommandItem } from '../../extensions/SlashCommand'
 
 export interface SlashMenuRef {
   onKeyDown: (props: { event: KeyboardEvent }) => boolean

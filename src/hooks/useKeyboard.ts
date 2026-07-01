@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
-import { useUIStore } from '@/store/uiStore'
-import { usePageStore } from '@/store/pageStore'
+import { useUIStore } from '../store/uiStore'
+import { usePageStore } from '../store/pageStore'
 
 /**
  * Global keyboard shortcuts:

@@ -1,9 +1,9 @@
 import { create } from 'zustand'
 import { subscribeWithSelector } from 'zustand/middleware'
 import type { JSONContent } from '@tiptap/core'
-import type { Page } from '@/types'
-import { generateId } from '@/lib/tiptap.utils'
-import { savePageLocally, getAllLocalPages, deleteLocalPage } from '@/lib/idb'
+import type { Page } from '../types'
+import { generateId } from '../lib/tiptap.utils'
+import { savePageLocally, getAllLocalPages, deleteLocalPage } from '../lib/idb'
 
 const DEFAULT_CONTENT: JSONContent = {
   type: 'doc',

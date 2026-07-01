@@ -1,8 +1,8 @@
 import { useMemo } from 'react'
 import Fuse from 'fuse.js'
-import { usePageStore } from '@/store/pageStore'
-import { getTextContent } from '@/lib/tiptap.utils'
-import type { SearchResult } from '@/types'
+import { usePageStore } from '../store/pageStore'
+import { getTextContent } from '../lib/tiptap.utils'
+import type { SearchResult } from '../types'
 
 /**
  * Full-text search across all pages using Fuse.js.
